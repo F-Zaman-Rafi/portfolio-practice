@@ -105,3 +105,132 @@ line-height: normal;
   display: flex;
   flex-direction: column;
 }
+.planning-head{
+    text-align: center;
+    padding: 10% 0 0 0;
+    color: #151414;
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.plans{
+    display: flex;
+    text-align: center;
+    padding-right: 10%;
+    padding-top: 50px;
+
+}
+.plan{
+    padding-left: 14%;
+}
+.call-head{
+    padding: 10% 0 0 10%;
+width: 459px;
+color: #FFF;
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.button-2{
+    margin: 5% 0 0 10%;
+    border-radius: 5px;
+    background: white;
+    border: none;
+    width: 170px;
+    height: 64px;
+    color: #f15b22;
+    font-size: 15px;
+    text-align: center;
+    font-family: "work sans";
+    /* flex-shrink: 0; */}
+
+.call{
+
+width: 1000px;
+height: 400px;
+    background-image: url(/portfolio-practice/images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10% 15% 0 15%; 
+    border-radius: 5px;
+}
+footer{
+    width: 1600px;
+height: 577px;
+flex-shrink: 0;
+background: #151414;
+}
+.footer-head{
+    padding:30% 0 0 40%;
+color: #F8F8F8;
+font-family: Work Sans;
+font-size: 45px;
+}
+.footer-text{
+    color: #FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 16px;
+font-style: normal;
+line-height: 26px; /* 162.5% */
+padding:0 0 0 40%;
+width: 400px;
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.subscribe{
+    color: #FFF;
+    padding-bottom: 20px;
+font-family: 'Times New Roman', Times, serif;
+font-style: normal;
+line-height: normal;
+font-size: 25px;
+
+}
+.footer-last{
+    padding:8% 0 0 30%;
+
+}
+.footer-last:button-2(2){
+padding-right: 20%;
+}
+.future{
+    display: flex;
+}
+
+.button-3{
+    margin: 10% 0 0 0%;
+    border-radius: 5px;
+    background: white;
+    border: none;
+    width: 170px;
+    height: 64px;
+    color: #f15b22;
+    font-size: 15px;
+    text-align: center;
+    font-family: "work sans";
+    /* flex-shrink: 0; */
+}
+.button-3-text{
+
+}
+
+.form{
+width: 250px;
+height: 30px;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid #F3F3F3;
+color: white;
+/* margin: 5% 5%; */
+}
+.form-text{
+    padding: 3% 0% 0% 2%;
+    color: #F3F3F3;
+}
