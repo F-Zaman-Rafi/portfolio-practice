@@ -19,7 +19,7 @@
   padding-right: 11%;
   padding-top: 8%;
   width: 525px;
-  color: var(--Dark-01, #151414);
+  color: #151414;
   font-family: Work Sans;
   font-size: 65px;
   font-weight: 700;
@@ -62,11 +62,15 @@ line-height: normal;
   padding-top: 20px;
   padding-left: 67%;
 }
+
 .main-content {
-  margin-top: 20%;
-  padding-left: 60%;
+  margin: 20% 0 0 0;
+  display: flex;
 }
 .main-heading {
+  padding-top: 50%;
+  padding-left: 10%;
+
   width: 288px;
   color: #151414;
   font-family: Work Sans;
@@ -76,6 +80,7 @@ line-height: normal;
   line-height: normal;
 }
 .main-para {
+  padding-left: 10%;
   width: 416px;
   color: #444343;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -86,5 +91,17 @@ line-height: normal;
   padding-top: 5%;
 }
 .bullet {
+  padding-left: 5%;
   padding-top: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 50;
+}
+.model {
+  padding: 0 0 0 10%;
+}
+.lettrs {
+  display: flex;
+  flex-direction: column;
 }
